@@ -62,7 +62,7 @@ export default function Contact() {
             <h2>CONTACT</h2>
             <div className="line"></div>
             <p>
-              Feel free to Contact me by submitting the form below and I will
+              Feel free to Contact me by contact media below and I will
               get back to you as soon as possible
             </p>
           </div>

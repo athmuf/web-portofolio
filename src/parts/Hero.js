@@ -9,11 +9,19 @@ export default function Hero() {
           <h1>HI, I'M ATHIFAH MUFLIHAH</h1>
           <p>
             A Frontend focused Web Developer building the Frontend of Websites
-            and Web Applications that leads to the success of the overall
-            product
+            and Web Applications that leads to effectively and aesthetically
+            deliver information to site visitors.
           </p>
           <button className="btn">
-            <Link to="project" spy={true} smooth={true} offset={-50} duration={500}>PROJECTS</Link>
+            <Link
+              to="project"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
+              PROJECTS
+            </Link>
           </button>
         </div>
       </div>

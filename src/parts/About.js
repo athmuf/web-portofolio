@@ -35,28 +35,37 @@ export default function About() {
             <div className="main-content">
               <h3>Get to know me!</h3>
               <p>
-                I'm a Frontend Web Developer building the Front-end of Websites
-                and Web Applications that leads to the success of the overall
-                product. Check out some of my work in the Projects section.
+                I'm a <span className="text-bold">Frontend Web Developer</span>{" "}
+                building the Front-end of Websites and Web Applications that
+                leads to effectively and aesthetically deliver information to
+                site visitors. Check out some of my work in the{" "}
+                <span className="text-bold">Projects</span> section.
               </p>
               <p>
-                I also like sharing content related to the stuff that I have
-                learned over the years in Web Development so it can help other
-                people of the Dev Community. Feel free to Connect or Follow me
-                on my Linkedin where I post useful content related to Web
-                Development and Programming.
+                Currently I am an active student majoring in computer science at
+                IPB University 3rd year. Feel free to Connect or Follow me on my{" "}
+                <span>
+                  <a
+                    href="https://www.linkedin.com/in/athifamuf"
+                    className="text-bold"
+                  >
+                    Linkedin
+                  </a>
+                </span>
+                .
               </p>
               <p>
-                I'm open to Job opportunities where I can contribute, learn and
-                grow. If you have a good opportunity that matches my skills and
-                experience then don't hesitate to contact me.
+                I'm open to <span className="text-bold">Job</span> opportunities
+                where I can contribute, learn and grow. If you have a good
+                opportunity that matches my skills and experience then don't
+                hesitate to <span className="text-bold">contact</span> me.
               </p>
             </div>
           </article>
           <div className="empty"></div>
           <aside>
             <div className="side-content">
-            <div className="side-profile">
+              <div className="side-profile">
                 <img
                   src={ProfileImage}
                   alt="Profile"

@@ -13,21 +13,27 @@ export default function Footer() {
               <h2>ATHIFAH MUFLIHAH</h2>
               <p>
                 A Frontend focused Web Developer building the Frontend of
-                Websites and Web Applications that leads to the success of the
-                overall product
+                Websites and Web Applications that leads to effectively and
+                aesthetically deliver information to site visitors.
               </p>
             </div>
             <div className="footer-social">
               <h2>MY SOCIAL MEDIA</h2>
               <div className="social-logo">
                 <a href="https://www.linkedin.com/in/athifamuf">
-                  <Linkedin fill="var(--cream-color)" className="logo"></Linkedin>
+                  <Linkedin
+                    fill="var(--cream-color)"
+                    className="logo"
+                  ></Linkedin>
                 </a>
                 <a href="https://github.com/athmuf">
                   <Github fill="var(--cream-color)" className="logo"></Github>
                 </a>
                 <a href="https://www.instagram.com/athifamuf">
-                  <Instagram fill="var(--cream-color)" className="logo"></Instagram>
+                  <Instagram
+                    fill="var(--cream-color)"
+                    className="logo"
+                  ></Instagram>
                 </a>
               </div>
             </div>
