@@ -5,7 +5,7 @@ import WebProject from "../assets/images/project-web.png";
 export default function Projects() {
   return (
     <>
-      <div className="projects max-content">
+      <div className="projects max-content" id="project">
         <div className="heading">
           <h2>PROJECTS</h2>
           <div className="line"></div>

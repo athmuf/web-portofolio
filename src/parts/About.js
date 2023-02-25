@@ -21,9 +21,9 @@ export default function About() {
 
   return (
     <>
-      <div className="about max-content">
+      <div className="about max-content" id="about">
         <div className="heading">
-          <h2>About Me</h2>
+          <h2>ABOUT ME</h2>
           <div className="line"></div>
           <p>
             Here you will find more information about me, what I do, and my

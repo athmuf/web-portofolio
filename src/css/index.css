@@ -43,6 +43,10 @@ nav {
   align-items: center;
 }
 
+.menu-icon {
+  display: none;
+}
+
 .nav-profile {
   display: flex;
   align-items: center;
@@ -77,6 +81,10 @@ li.nav-list {
   list-style: none;
   font-size: 1rem;
   font-weight: 600;
+}
+
+li.nav-list:hover {
+  cursor: pointer;
 }
 
 a {
@@ -270,11 +278,11 @@ button:hover {
   padding-bottom: 50px;
 }
 
-.content h3 {
+.main-content h3 {
   font-size: 1.5rem;
 }
 
-.content p {
+.main-content p {
   font-size: 1.1rem;
   line-height: 1.75;
   text-align: justify;
@@ -320,6 +328,9 @@ aside {
   font-size: 0.75rem;
 }
 
+.side-content h3 {
+  font-size: 1.5rem;
+}
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -362,7 +373,7 @@ aside {
 
 .contact-media {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -412,12 +423,35 @@ aside {
     max-width: 100%;
     overflow-x: hidden;
   }
+
+  .bar {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: var(--gray-color);
+    margin: 6px 0;
+    border-radius: 0.25rem;
+    transition: 0.4s;
+  }
   
+
+  .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+
+  .bar2 {
+    opacity: 0;
+  }
+
+  .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+
   .hero-content {
     padding: 10px;
   }
 
-  .hero-content h1{
+  .hero-content h1 {
     font-size: 2.5rem;
   }
   .hero-content p {
@@ -426,13 +460,41 @@ aside {
 
   nav {
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
   }
 
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-icon {
+    display: block;
+  }
   .name-profile {
     padding: 10px;
   }
   .nav-main {
     display: none;
+  }
+
+  ul.nav-item {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li.nav-list {
+    padding: 15px 0px;
+    list-style: none;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
   }
 
   .max-content {
@@ -461,9 +523,9 @@ aside {
     padding-right: 10px;
   }
 
-  .content{
+  .content {
     flex-direction: column;
-  };
+  }
 
   article {
     display: block;
@@ -499,9 +561,14 @@ aside {
     padding-right: 10px;
   }
 
+  .image-contact {
+    width: 1.5rem;
+  }
+
   .contact-media {
     justify-content: left;
   }
+
   .contact-details {
     display: inline-flex;
     flex-direction: row;
@@ -510,7 +577,7 @@ aside {
   .circle {
     width: 50px;
     height: 50px;
-    margin-right:15px;
+    margin-right: 15px;
   }
 
   .data-details h4 {
