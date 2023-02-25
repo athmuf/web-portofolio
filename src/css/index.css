@@ -87,24 +87,21 @@ li.nav-list:hover {
   cursor: pointer;
 }
 
-a {
-  text-decoration: none;
-}
-
-.name-profile a {
+.name-profile{
   color: var(--gray-color);
 }
 
-.name-profile a:hover {
+.name-profile:hover {
   color: var(--blue-color);
+  cursor: pointer;
 }
 
-.nav-list a {
+.nav-list{
   color: var(--gray-color);
   transition-duration: 300ms;
 }
 
-.nav-list a:hover {
+.nav-list:hover {
   color: var(--blue-color);
   transition-duration: 300ms;
 }

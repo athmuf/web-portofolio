@@ -16,7 +16,7 @@ export default function Header() {
               <img src={ProfileImage} alt="Profile" className="profile-image" />
             </div>
             <div className="name-profile">
-              <a href="/#">ATHIFAH MUFLIHAH</a>
+              <Link to="home" spy={true} smooth={true} offset={-50} duration={500}>ATHIFAH MUFLIHAH</Link>
             </div>
           </div>
           <div onClick={() => setIsActive(!isActive)} className="menu-icon">
