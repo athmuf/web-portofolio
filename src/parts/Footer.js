@@ -18,7 +18,7 @@ export default function Footer() {
               </p>
             </div>
             <div className="footer-social">
-              <h2>SOCIAL MEDIA</h2>
+              <h2>MY SOCIAL MEDIA</h2>
               <div className="social-logo">
                 <a href="/#">
                   <Linkedin fill="var(--cream-color)" className="logo"></Linkedin>

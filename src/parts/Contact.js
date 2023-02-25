@@ -47,8 +47,10 @@ export default function Contact() {
   const renderContact = contact.map((item) => (
     <div key={item.id} className="contact-details">
       <div className="circle">{item.image}</div>
-      <h4>{item.name}</h4>
-      <h5>{item.data}</h5>
+      <div className="data-details">
+        <h4>{item.name}</h4>
+        <h5>{item.data}</h5>
+      </div>
     </div>
   ));
 
@@ -56,15 +58,15 @@ export default function Contact() {
     <>
       <div className="contact">
         <div className="max-content">
-        <div className="heading">
-          <h2>CONTACT</h2>
-          <div className="line"></div>
-          <p>
-            Feel free to Contact me by submitting the form below and I will get
-            back to you as soon as possible
-          </p>
-        </div>
-        <div className="contact-media">{renderContact}</div>
+          <div className="heading">
+            <h2>CONTACT</h2>
+            <div className="line"></div>
+            <p>
+              Feel free to Contact me by submitting the form below and I will
+              get back to you as soon as possible
+            </p>
+          </div>
+          <div className="contact-media">{renderContact}</div>
         </div>
       </div>
     </>
