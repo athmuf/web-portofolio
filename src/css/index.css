@@ -285,7 +285,7 @@ article {
 }
 
 .empty {
-  flex-basis: 10%987;
+  flex-basis: 10%;
 }
 
 aside {
@@ -436,7 +436,8 @@ aside {
   }
 
   .max-content {
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .about {
     padding: 10px;
@@ -499,7 +500,7 @@ aside {
   }
 
   .contact-media {
-    justify-content: center;
+    justify-content: left;
   }
   .contact-details {
     display: inline-flex;
