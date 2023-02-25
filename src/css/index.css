@@ -437,7 +437,6 @@ aside {
 
   .max-content {
     margin: 10px;
-    max-width: 350px
   }
   .about {
     padding: 10px;
@@ -454,6 +453,11 @@ aside {
 
   .heading p {
     font-size: 1rem;
+  }
+
+  .projects {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .content{
@@ -474,5 +478,35 @@ aside {
 
   .side-profile {
     display: none;
+  }
+
+  .project-content {
+    flex-direction: column;
+  }
+
+  .project-photo img {
+    height: 150px;
+  }
+
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .contact {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .contact-media {
+    justify-items: center;
+  }
+
+  .footer-upper {
+    flex-direction: column;
+  }
+
+  .footer-profile {
+    width: 100%;
   }
 }
