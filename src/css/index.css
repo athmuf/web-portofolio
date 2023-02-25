@@ -281,8 +281,11 @@ button:hover {
 }
 
 article {
-  padding-right: 100px;
-  flex-basis: 75%;
+  flex-basis: 55%;
+}
+
+.empty {
+  flex-basis: 10%987;
 }
 
 aside {
@@ -352,9 +355,6 @@ aside {
   height: 300px;
 }
 
-.main-content {
-}
-
 .contact {
   padding: 50px;
   background-image: url("/src/assets/images/interlaced.png");
@@ -412,18 +412,67 @@ aside {
     max-width: 100%;
     overflow-x: hidden;
   }
+  
+  .hero-content {
+    padding: 10px;
+  }
+
+  .hero-content h1{
+    font-size: 2.5rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+  }
 
   nav {
     padding: 10px;
   }
 
-  img.profile-image {
-    width: 3rem;
-  }
   .name-profile {
     padding: 10px;
   }
   .nav-main {
+    display: none;
+  }
+
+  .max-content {
+    margin: 10px;
+    max-width: 350px
+  }
+  .about {
+    padding: 10px;
+  }
+
+  .heading {
+    padding: 10px;
+    margin: 0px;
+  }
+
+  .heading h2 {
+    font-size: 2rem;
+  }
+
+  .heading p {
+    font-size: 1rem;
+  }
+
+  .content{
+    flex-direction: column;
+  };
+
+  article {
+    display: block;
+    padding-right: 0px;
+    flex-basis: 0%;
+  }
+
+  .content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  .side-profile {
     display: none;
   }
 }

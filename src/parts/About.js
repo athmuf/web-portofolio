@@ -53,6 +53,7 @@ export default function About() {
               </p>
             </div>
           </article>
+          <div className="empty"></div>
           <aside>
             <div className="side-content">
             <div className="side-profile">
