@@ -20,13 +20,13 @@ export default function Footer() {
             <div className="footer-social">
               <h2>MY SOCIAL MEDIA</h2>
               <div className="social-logo">
-                <a href="/#">
+                <a href="https://www.linkedin.com/in/athifamuf">
                   <Linkedin fill="var(--cream-color)" className="logo"></Linkedin>
                 </a>
-                <a href="/#">
+                <a href="https://github.com/athmuf">
                   <Github fill="var(--cream-color)" className="logo"></Github>
                 </a>
-                <a href="/#">
+                <a href="https://www.instagram.com/athifamuf">
                   <Instagram fill="var(--cream-color)" className="logo"></Instagram>
                 </a>
               </div>
