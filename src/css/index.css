@@ -509,7 +509,8 @@ aside {
     margin-right: 10px;
   }
   .about {
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .heading {
@@ -558,6 +559,9 @@ aside {
     height: 150px;
   }
 
+  .main-content p {
+    font-size: 1rem;
+  }
   .container {
     padding-left: 10px;
     padding-right: 10px;
